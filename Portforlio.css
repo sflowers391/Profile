@@ -1,0 +1,689 @@
+body{
+    margin: 0;
+   padding: 0;
+   background-color: rgb(3, 141, 162);
+}
+/*The 2 navbars*/
+.Top-navbarContainer{
+    height:40px;
+    background-color: rgb(255, 166, 0);
+    font-weight: 300;
+    display: flex;
+}
+.Top-navbar{
+   display: flex;
+   justify-content:start;
+   align-items: center;
+}
+.message{
+    animation: color-change 4s ease-in forwards alternate infinite;
+}
+
+@keyframes color-change{
+    0%{
+       color: black;
+    }
+    20%{
+        color: rgb(246, 9, 9);
+    }
+    40%{
+        color: rgb(169, 73, 0);
+    }
+    60%{
+        color: rgb(255, 233, 31)
+    }
+    70%{
+        color:rgb(11, 206, 0);
+    }
+    80%{
+        color:rgb(2, 202, 192)
+    }
+    90%{
+        color:rgb(0, 0, 185)
+    }
+    100%{
+        color: black;
+    }
+}
+.Bottom-navbarContainer{
+    height: 70px;
+}
+.Menu{
+    height:0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.show-menu{
+    height: 10rem;
+}
+.Second-navbar{
+    background-color: rgb(204, 255, 253);
+    box-shadow: 0px 5px 15px rgb(91, 91, 91);
+}
+.Bottom-navbar{
+display: flex;
+align-items: center;
+}
+.snow1{
+    background-color: white;
+    height: 100px;
+    border-radius: 50px 50px;
+}
+.Logo-name{
+    color: orange;
+    font-family: 'Caveat', cursive;
+    letter-spacing: 1.2px;
+    font-size: 35px;
+}
+.Logo-Picture{
+    height: 30px;
+    position: relative;
+    top: 4px;
+}
+.fa-bars{
+   color: orange;
+   font-size: 1.2rem;
+}
+ .Menu{
+    font-size: 1.2rem;
+   
+ }   
+.Menu a{
+    color: orange;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    padding: 1.285rem;
+    transition: all 0.3s linear;
+     display: block;
+}
+.Menu a:hover{
+    color: rgb(10, 54, 86);
+    background-color: rgb(255, 255, 255, 0.6);
+    padding-left: 10px;
+}
+.Menu{
+    list-style: none;
+}
+.Bottom-navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/*End of the 2 navbars*/
+@media (min-width: 800px){
+      .Bottom-navbarContainer{
+        max-width:1170px;
+        margin:0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 1rem;
+        height: 40px;
+      }
+      .fa-bars{
+        color: rgb(204, 255, 253);
+      }
+      .Bottom-navbar{
+        padding: 0;
+      }
+      .Menu{
+        display: flex;
+        height: auto;
+      }
+      .Menu a{
+        padding: 0;
+        margin: 0 0.5rem;
+      }
+      .Menu a:hover{
+        background:transparent;
+      }
+}
+/*Tree Decor*/
+.tree{
+    position: relative;
+    top: 8px;
+    height:35px;
+}
+
+/* Software Engineer Bar*/
+.Job-labelContainer{
+    background-color: rgb(10, 54, 86);
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    animation: back-change 1s ease-out alternate infinite;
+    margin: 0;
+}
+.Job-label{
+    font-family: 'Rubik Bubbles', cursive;
+    }
+@keyframes back-change{
+    0%{
+        color: black;
+     }
+     20%{
+         color: rgb(246, 9, 9);
+     }
+     40%{
+         color: rgb(169, 73, 0);
+     }
+     60%{
+         color: rgb(255, 233, 31)
+     }
+     70%{
+         color:rgb(11, 206, 0);
+     }
+     80%{
+         color:rgb(2, 202, 192)
+     }
+     90%{
+         color:rgb(0, 0, 185)
+     }
+     100%{
+         color: black;
+     }
+}
+/* Middle Section*/
+.text1{
+    background-color: white;
+    height: 50px;
+    width:110px;
+position: relative;
+    bottom: 590px;
+    left: 15px;
+    border-radius:12px 10px 12px 10px;
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    padding: 3px;
+    animation: text1-come 0.5s ease 5s forwards ;
+}
+@keyframes text1-come{
+    0%{
+    }
+    100%{
+        color: white;
+        background-color:rgb(90, 90, 90);
+    }  
+}
+
+.text2{
+    background-color: white;
+    height: 55px;
+    width:110px;
+   position: relative;
+    left: 68px;
+    bottom: 580px;
+    border-radius:12px 10px 12px 10px;
+    font-size: 12px;
+    color: white;
+    padding: 3px;
+    transition-delay: 5s;
+    animation: text2-come 0.5s ease 8s forwards;
+}
+@keyframes text2-come{
+    0%{}
+      100%{
+          color: white;
+          background-color:rgb(15, 82, 252);
+      }  
+}
+.text3{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    width:110px;
+   position: relative;
+    left: 15px;
+    bottom: 570px;
+    border-radius:12px 10px 12px 10px;
+    font-size: 12px;
+    color: white;
+    padding: 3px;
+    animation: text3-come 0.5s ease 15s forwards;
+}
+@keyframes text3-come{
+    0%{}
+      100%{
+          color: white;
+          background-color:rgb(90, 90, 90);
+      }  
+}
+.rectangle-for-topscreen{
+    background-color: rgb(21, 20, 20);
+    height:20px;
+    width:70px;
+   position: relative;
+   left: 50px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+    border-radius:12px 10px 12px 10px;
+}
+.circle{
+   font-size: 11px;
+   color: white;
+   display: flex;
+   justify-content: center;
+   position: relative;
+   top:2px;
+   left: 70px;
+   background-color: rgb(188, 188, 188);
+   border-radius: 50%;
+   width: 20px;
+   padding: 5px;
+}
+.phone-whitescreen{
+    background-color: white;
+    height:330px;
+    width:180px;
+   position: relative;
+   left: 10px;
+    bottom: 330px;
+    border-radius:10px 10px;
+}
+.phone-blackscreen{
+    background-color: black;
+    height:340px;
+    width:190px;
+   position: relative;
+    left: 5px;
+    top: 5px;
+    border-radius:10px 10px;
+}
+.Phone{
+    background-color:orange;
+    height:350px;
+    width:200px;
+    position: absolute;
+    left: 1145px;
+    top: 170px;
+    border-radius:14px 14px ;
+    margin:0;
+    padding: 0;
+}
+.name-box{
+    background-color: rgb(128, 128, 128, 0.9);
+    width:180px;
+    height: 48px;
+    position: relative;
+    bottom: 830px;
+    left: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.shadow{
+    background-color: rgba(255, 255, 255);
+    width: 250px;
+    height: 10px;
+    position: relative;
+    bottom: 475px;
+    transform: perspective(1rem) rotateX(20deg) scale(1, 0.35);
+    filter: blur(1rem);
+    right: 10px;
+    }
+.Big-bubble{
+    width: 600px;
+    height: 500px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom: 10px;
+    left:60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 60px;
+    color: orange;
+    font-family: 'Rubik Bubbles', cursive;
+}
+.Small-bubble{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+        background-color: rgba(255,255, 255, 0.1);
+        border-top: 1px solid rgba(255,255, 255, 0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+        position: relative;
+        top:40px;
+        left:660px;
+        display: flex;
+        justify-content:center ;
+}
+.Info{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 115px;
+    top:10px;
+    font-family: 'Rubik Bubbles', cursive;
+    animation: back-change 1s ease-out alternate infinite;
+}
+@keyframes back-change{
+    0%{
+        color: black;
+     }
+     20%{
+         color: rgb(246, 9, 9);
+     }
+     40%{
+         color: rgb(169, 73, 0);
+     }
+     60%{
+         color: rgb(255, 233, 31)
+     }
+     70%{
+         color:rgb(11, 206, 0);
+     }
+     80%{
+         color:rgb(2, 202, 192)
+     }
+     90%{
+         color:rgb(0, 0, 185)
+     }
+     100%{
+         color: black;
+     }
+}
+.Instagram{
+    height: 30px;
+    position: relative;
+    top:20px;
+    left: 10px;
+}
+.Instagram-text{
+position: relative;
+bottom: 30px;
+left:40px;
+color: rgb(204, 255, 253);
+}
+.Gmail{
+    height: 25px;
+    position: relative;
+    top:40px;
+    right:40px;
+}
+.Gmail-text{
+    font-size: 13px;
+    color:rgb(204, 255, 253);
+    position: relative;
+    bottom: 5px;
+    right:10px;
+}
+.Smaller-bubble{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 990px;
+    top:300px;
+}
+.Smaller-bubbletext{
+    color: yellow;
+     display: flex;
+     justify-content: center;
+}
+.heart{
+    height:15px;
+    animation: rotate-jump 3s ease infinite;
+}
+@keyframes rotate-jump{
+    0%{
+       transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.Smallest-bubble{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 890px;
+   top: 300px;
+}
+.Smallest-bubble2{
+    width: 80px;
+    height:80px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Smallest-bubble3{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 590px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Smallest-bubble4{
+    width: 110px;
+    height:110px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 780px;
+    top:240px;
+}
+.Me-picture{
+    opacity: -1px;
+    height:350px;
+    width: 300px;
+    border-radius: 80% 81% 100% 53% / 51% 44% 45% 91%;
+    position: absolute;
+    left:1100px;
+    top:800px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    padding: 0;
+    margin:0;
+}
+.Mid-Container{
+    height:50vh;
+    padding: 0%;
+    margin: 0;
+}
+.Smallest-bubble22{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 1070px;
+    top:890px;
+    animation: up-down 13s ease infinite;
+}
+.Smallest-bubble23{
+    width: 38px;
+    height:38px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 1090px;
+    top:910px; 
+    animation: up-down 13s ease infinite;
+}
+.Smallest-bubble24{
+    width: 55px;
+    height:55px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    left: 950px;
+    top:850px; 
+    animation: up-down 13s ease infinite;
+}
+.Bubble-Container{
+    animation: up-down 13s ease infinite;
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(0%);
+    }
+    50%{
+        transform: translateY(5%);
+    }
+    100%{
+        transform: translateY(0%);
+    }
+}
+.arrow{
+   height: 200px;
+   position: relative;
+   top:30px;
+   right:5px;
+   animation:fast-jump 2s ease infinite;
+}
+@keyframes fast-jump{
+    0%{
+        transform:translateY(0px);
+       
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+.Game{
+    height:800px;
+    width: 1300px;
+    position: absolute;
+    margin:0;
+    right: 300px;
+}
+.Bottom-Container{
+    background-color: rgb(255, 213, 0);
+    margin: 0%;
+    height:200px;
+    width:500px;
+    border-radius: 10px 10px;
+    position: absolute;
+    top: 900px;
+    left:50px;
+    overflow: hidden;
+}
+.Skill-Logo{
+height:80px;
+
+}
+.bottom-grid{
+    display: flex;
+    gap: 23px;
+    height: 85px;
+}
+.bottom-grid img{
+    display: grid;
+    grid-row: 1fr 1fr;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    align-items: center;
+    border-radius: 10px;
+    transition: all 2s;
+}
+.Tags{
+    display:flex;
+    gap:86px;
+    padding: 10px;
+}
+.tag2{
+    color: rgb(3, 154, 159);
+    animation: color-flip 4s ease infinite alternate;
+}
+@keyframes color-flip{
+    0%{
+        transform: translateX(0)
+    }
+    33%{
+        transform: translateY(100%)
+    }
+    66%{
+        transform:translateX(100%) translateY(100%)
+    }
+    100%{
+        transform: translateX(100%)
+    }
+}
+
+.textbox{
+    width:55px;
+    position: absolute;
+    bottom: 80px;
+    left:290px;
+    color:orange;
+    border-radius:10px;
+    
+}
+.Click-me{
+    position: absolute;
+    left:288px;
+    background-color: rgb(204, 255, 253);
+    border-radius: 10px 10px;
+    color: rgb(43, 164, 234);
+    font-family: 'Rubik Bubbles', cursive;
+}
+.box-list{
+position: absolute;
+top:130px;
+right:130px;
+list-style: none;
+}
