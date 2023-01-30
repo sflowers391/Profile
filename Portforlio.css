@@ -55,6 +55,8 @@ body{
 }
 .show-menu{
     height: 10rem;
+    display:block;
+    font-weight:bold;
 }
 .Second-navbar{
     background-color: rgb(204, 255, 253);
@@ -391,7 +393,7 @@ position: relative;
     height: 30px;
     position: relative;
     top:20px;
-    left: 10px;
+    left: 15px;
 }
 .Instagram-text{
 position: relative;
@@ -403,7 +405,7 @@ color: rgb(204, 255, 253);
     height: 25px;
     position: relative;
     top:40px;
-    right:40px;
+    right:50px;
 }
 .Gmail-text{
     font-size: 13px;

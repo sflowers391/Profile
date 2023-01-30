@@ -838,3 +838,41 @@ left:23px;
     top:93px;
     left:32px;
 }
+.Menu{
+    height:0;
+    overflow: hidden;
+    transition: all 0.3s linear;
+}
+.show-menu{
+    height: 10rem;
+    display:block;
+    
+}
+@media (min-width: 700px){
+    .Bottom-navbarContainer{
+      max-width:1170px;
+      margin:0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem;
+      height: 40px;
+    }
+    .fa-bars{
+      color: rgb(204, 255, 253);
+    }
+    .Bottom-navbar{
+      padding: 0;
+    }
+    .Menu{
+      display: flex;
+      height: auto;
+    }
+    .Menu a{
+      padding: 0;
+      margin: 0 0.5rem;
+    }
+    .Menu a:hover{
+      background:transparent;
+    }
+}

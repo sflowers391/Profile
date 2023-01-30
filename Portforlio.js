@@ -89,4 +89,11 @@ function removeParent(evt) {
 
   yearEl.innerText = date.getFullYear()
 
+  const bar = document.querySelector(".fa-bars")
+  const menu = document.querySelector(".Menu")
+
+  bar.addEventListener("click", ()=>{
+    menu.classList.toggle("show-menu");
+  });
+
 
