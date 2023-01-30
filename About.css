@@ -1,0 +1,840 @@
+body{
+    margin:0;
+    padding:0;
+   background-color: rgb(153, 153, 153); 
+}
+.aboutMeRoom-Container{
+    position: absolute;
+    left:700px;
+}
+.Desk{
+    display: flex;
+    justify-content: center;
+    
+}
+.day-night{
+    position:absolute;
+    top:565px;
+    left:250px;
+    width:50px;
+    height:20px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em orange;
+    background: black;
+}
+.day-night:hover{
+    color:orange;
+}
+.standing-desk{
+background-color: burlywood;
+border-radius: 10px;
+    height:45px;
+    width:900px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top:550px;
+}
+.standing-desk-flat-surface{
+    background-color: rgb(193, 157, 111);
+    height:40px;
+    width:700px;
+    position: absolute;
+    top:505px;
+    transform: perspective(1em) rotateX(10deg)
+}
+.standing-desk-leg1{
+    background-color: white;
+    height:50px;
+    width:30px;
+    position: absolute;
+    top:593px;
+    right:300px;
+
+}
+.standing-desk-leg2{
+    background-color: white;
+    height:50px;
+    width:30px;
+    position: absolute;
+    top:593px;
+    left:350px;
+}
+.Mac-Screen{
+    width: 320px;
+    height: 200px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: 5px solid rgb(0, 0, 0);
+   position: absolute;
+   top:250px;
+   
+}
+.screen-pic{
+    display:flex;
+     justify-content:center;
+     align-items: center;
+     position: absolute;
+     left:130px;
+     top:55px;
+}
+.Mac-Screen:hover{
+cursor: pointer;
+}
+.Mac-stand{
+    width:70px;
+    height:50px;
+    
+    background: rgb(196, 196, 196);
+    position: absolute;
+    top:458px;
+}
+.Mac-stand-flat-surface{
+    width:65px;
+    height:20px;
+    transform: perspective(1em) rotateX(25deg);
+    background: rgb(196, 196, 196);
+    position: absolute;
+    top:495px;
+    border-radius: 2px;
+}
+.circle-in-Mac-stand{
+    width:20px;
+    height:20px;
+    background: rgb(153, 153, 153);
+    border-radius: 50px;
+    position: absolute;
+    top:440px;
+    border: 8px solid rgb(196, 196, 196);
+}
+.Mac-keyboard{
+    width:160px;
+    height:35px;
+    transform: perspective(2em) rotateX(30deg);
+    background: rgb(196, 196, 196);
+    position: absolute;
+    top: 510px;
+    border-radius: 10px;
+}
+.Mac-keyboard-keys{
+    width:155px;
+    height:30px;
+    transform: perspective(2em) rotateX(25deg);
+    background: black;
+    position: absolute;
+    top: 510px;
+    border-radius: 10px;
+}
+.Mac-keyboard-keys-Inv{
+    width:155px;
+    height:30px;
+    transform: perspective(2em) rotateX(25deg);
+    background: transparent;
+    border: transparent;
+    position: absolute;
+    top: 510px;
+    border-radius: 10px;
+}
+.Mac-keyboard-keys-Inv:hover{
+    cursor: pointer;
+}
+.music{
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius: 50px;
+    top:320px;
+    left:240px;
+    background:rgb(0, 255, 85);
+}
+.music:hover{
+    cursor:pointer;
+}
+.music-on{
+    background:rgb(39, 240, 39);
+}
+.pause{
+    position: absolute;
+    height:15px;
+    bottom:1px;
+    right:1px;
+}
+.stop{
+    position: absolute;
+    height:12px;
+    bottom:1px;
+    right:1px; 
+}
+.music-stop{
+    position:absolute;
+    width:20px;
+    height:20px;
+    border-radius: 50px;
+    top:320px;
+    left:183px;
+    background:red;
+}
+.music-stop:hover{
+    cursor:pointer;
+}
+.song{
+    position:absolute;
+    height:15px;
+    width:310px;
+    color:white;
+    top:440px;
+    background: white;
+}
+.song1{
+    color:orange;
+    background:white;
+}
+.Speaker1{
+    width:90px;
+    height:90px;
+    background: rgb(255, 154, 3);
+    border-radius: 10px;
+    position: absolute;
+    top: 255px;
+    left:175px;
+    color: aqua;
+}
+.circle1{
+    background: rgb(247, 208, 136);
+    width: 30px;
+    height:30px;
+    border-radius:50px;
+    position: absolute;
+    top:265px;
+    left:205px;
+    color:palegreen;
+}
+.circle2{
+    background: rgb(247, 208, 136);
+    width: 30px;
+    height:30px;
+    border-radius:50px;
+    position: absolute;
+    top:305px;
+    left:205px;
+    color:palegreen;  
+}
+.Speaker2{
+    width:90px;
+    height:90px;
+    background: rgb(255, 154, 3);
+    border-radius: 10px;
+    position: absolute;
+    top: 255px;
+    right:175px;
+}
+.circle3{
+    background: rgb(247, 208, 136);
+    width: 30px;
+    height:30px;
+    border-radius:50px;
+    position: absolute;
+    top:305px;
+    right:205px;
+}
+.circle4{
+    background: rgb(247, 208, 136);
+    width: 30px;
+    height:30px;
+    border-radius:50px;
+    position: absolute;
+    top:265px;
+   right:205px;
+}
+.stand-for-speaker1{
+    background:black;
+    width:20px;
+    height:170px;
+    position: absolute;
+    top:345px;
+    left:210px;
+}
+.stand-for-speaker2{
+    background:black;
+    width:20px;
+    height:135px;
+    position: absolute;
+    top:345px;
+    right:210px;
+}
+.oval-for-stand{
+    background: black;
+    position: absolute;
+    height:20px;
+    width:50px;
+    border-radius: 50px;
+    top:505px;
+    left:195px;
+}
+.Clock-Container{
+     font-family: 'Caveat', cursive;
+     color: red;
+     font-weight: bold;
+     display: flex;
+     align-content: center;
+     font-size:20px;
+     width:120px;
+    height:60px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid white;
+    position: absolute;
+    right:160px;
+    top:460px;
+    align-content: center;
+}
+.Clock{
+    position: absolute;
+    top:20px;
+    text-shadow: 0 0 0.125em hsl(0 0% 100% / 0.5), 0 0 0.45em red;
+}
+.toolbar{
+    position: absolute;
+   bottom:175px;
+    
+}
+.draw{
+    color: orange;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 12px;
+    
+}
+.number-box{
+    position: absolute;
+    left:170px;
+    background: rgb(255, 234, 3);
+    border-radius: 10px;
+    width: 40px;
+}
+.Line{
+    color: orange;
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 12px;
+}
+.clear-button{
+    position: absolute;
+    left:250px;
+    border-radius: 10px;
+    color: rgb(4, 74, 132);
+    background: linear-gradient(to right, rgb(255, 234, 3), #86cfe7, #f9c87f);
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 12px;
+}
+
+.Drawing-app{
+    height: 200px;
+    width:320px;
+}
+.drawing-board{
+    background:rgb(255, 255, 255);
+    border-radius: 9px;
+}
+
+.sky1{
+    background: rgb(169, 244, 250);
+    position: absolute;
+    width: 423px;
+    height:270px;
+    left:300px;
+    background:linear-gradient(0deg, rgb(108, 214, 249) 0%, rgb(209, 250, 255) 100%);
+}
+.sky2{
+    background: rgb(169, 244, 250);
+    position: absolute;
+    width:439px;
+    height:270px;
+    right:300px;
+    background:linear-gradient(0deg, rgb(108, 214, 249) 0%, rgb(209, 250, 255) 100%);
+}
+.night{
+    background:linear-gradient(0deg, rgb(81, 111, 140) 0%, rgb(5, 70, 131) 100%);
+
+}
+.sun{
+    background: yellow;
+    width:60px;
+    height:60px;
+    border-radius: 50px;
+    position: absolute;
+    left:650px;
+    top:15px;
+}
+.Hide{
+    background:transparent;
+}
+.moon{
+    background: transparent;
+    position: absolute;
+    width:60px;
+    height:60px;
+    right:600px;
+    border-radius:50px;
+    top:15px;
+    box-shadow: inset 0 0 0.5em 0 transparent, 0 0 0.5em transparent;
+}
+.real-moon{
+    background: rgb(255, 255, 255);
+    box-shadow: inset 0 0 0.5em 0 white, 0 0 0.5em;
+}
+.clouds1{
+background: white;
+position: absolute;
+width:70px;
+height:35px;
+border-radius:53% 47% 81% 19% / 33% 39% 61% 67%;
+top:10px;
+left:360px;
+animation: clouds 20s ease alternate infinite;
+}
+.clouds2{
+    background: white;
+    position: absolute;
+    width:50px;
+    height:15px;
+    border-radius:53% 47% 81% 19% / 33% 39% 61% 67%;
+    top:60px;
+    left:320px;
+    animation: clouds 20s ease alternate infinite;
+    }
+.clouds3{
+     background: white;
+    position: absolute;
+    width:70px;
+    height:35px;
+    border-radius:53% 47% 81% 19% / 33% 61% 39% 67%;
+    top:10px;
+    right:600px;
+     animation: clouds 20s ease alternate infinite;
+}
+.clouds4{
+    background: white;
+    position: absolute;
+    width:90px;
+    height:15px;
+    border-radius:53% 47% 20% 80% / 33% 39% 61% 67%;
+    top:60px;
+    right:550px;
+    animation: clouds 20s ease alternate infinite;
+    }
+
+
+@keyframes clouds{
+    0%{
+        transform: translateX(0px);
+        opacity:0%;
+    }
+    10%{
+        opacity: 100%;
+    }
+    100%{
+        transform: translate(290px);
+        opacity: 0%;
+    }
+}
+
+.road1{
+    background: rgb(199, 199, 199);
+    height:125px;
+    width:60px;
+    position: absolute;
+    left:500px;
+    top:243px;
+    transform: perspective(1em) rotateX(10deg);
+}
+.cars{
+    background: rgba(204, 204, 204);
+    height:121px;
+    width:60px;
+    position: absolute;
+    left:500px;
+    top:243px;
+    transform: perspective(1em) rotateX(10deg);
+    overflow: hidden;
+}
+.car1{
+    background: rgb(0, 0, 0);
+    height:8px;
+    width:10px;
+    position: absolute;
+    left:40px;
+    top:110px;
+    transform: rotate(-5deg);
+    border-radius:10px;
+    animation: move 20s infinite;
+    animation-fill-mode: both;
+}
+@keyframes move{
+    from{ transform: translateY(15px)}
+    to{ transform: translateY(-120px)}
+}
+
+.car2{
+    background: rgb(190, 2, 2);
+    height:8px;
+    width:10px;
+    position: absolute;
+    left:15px;
+    top:80px;
+    transform: rotate(-5deg);
+    border-radius:10px;
+    Animation: moving 20s infinite;
+    animation-fill-mode:both;
+}
+@keyframes moving{
+    from{ transform: translateY(-120px)}
+    to{ transform: translateY(45px)}
+}
+.lights1{
+    position: absolute;
+    height:3px;
+    width:9px;
+    background: transparent;
+    border-radius: 10px;
+    bottom:8px;
+    box-shadow: inset 0 0 0.5em 0 transparent;
+}
+.lights2{
+    position: absolute;
+    height:3px;
+    width:9px;
+    background: transparent;
+    border-radius: 10px;
+    top:7px;
+    box-shadow: inset 0 0 0.5em 0 transparent;
+}
+.show-light{
+background: white;
+box-shadow: inset 0 0 0.5em 0 white;
+}
+.grass{
+    background: greenyellow;
+    width:393px;
+    height:210px;
+    position: absolute;
+    left:330px;
+    top:270px;
+}
+.grass2{
+    background: greenyellow;
+    width:409px;
+    height:210px;
+    position: absolute;
+    right:330px;
+    top:270px;  
+}
+.night-grass{
+    background: rgb(126, 189, 32);
+}
+.glass1{
+    background-color: rgba(255,255, 255, 0.1);
+        border-top: 1px solid rgba(255,255, 255, 0.5);
+        border-left: 1px solid rgba(255,255,255,0.5);
+        backdrop-filter: blur(5px);
+        position: absolute;
+        width:425px;
+        height:475px;
+        left:300px;
+}
+
+.blind1{
+   background: rgba(142, 142, 142, 0.5);
+   position:absolute;
+   width:375px;
+   height:475px;
+   border-radius: 10px;
+   left:340px;
+   border:5px solid black;
+   
+}
+@keyframes up1{
+    0%{
+        height: 475px;
+    }
+    100%{
+        height:20px;
+    }
+}
+@keyframes up2{
+    0%{
+        height: 475px;
+    }
+    100%{
+        height:20px;
+    }
+}
+
+.blind2{
+    background: rgba(207, 207, 207, 0.5);
+   position:absolute;
+   width:375px;
+   height:475px;
+   border-radius: 10px;
+   right:340px;
+   border:5px solid black;
+}
+.blind-block1{
+    background:black;
+    position:absolute;
+    width:375px;
+    height:30px;
+    left:345px;
+    border-radius:10px;
+}
+.blind-block2{
+    background:black;
+    position:absolute;
+    width:375px;
+    height:30px;
+    right:345px;
+    border-radius:10px;
+}
+.up1{
+    animation:up1 20s ease forwards;  
+}
+.up2{
+    animation:up2 20s ease forwards;
+}
+.glass2{
+    background-color: rgba(255,255, 255, 0.1);
+    border-top: 1px solid rgba(255,255, 255, 0.5);
+    border-left: 1px solid rgba(255,255,255,0.5);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    width:432px;
+    height:475px;
+    right:300px; 
+}
+.window1-left{
+background: white;
+width:35px;
+height:510px;
+position: absolute;
+left:300px;
+}
+.window1-bottom{
+    background: white;
+    width: 424px;
+    height:35px;
+    position: absolute;
+    top:475px;
+    left:300px;
+}
+.window1-cross{
+    background: white;
+    width: 425px;
+    height:35px;
+    position: absolute;
+    left:300px;
+    top:120px
+}
+.window1-switch{
+    background: transparent;
+    width:35px;
+    position: absolute;
+    height:510px;
+    left:250px;
+    overflow: hidden;
+}
+.switch1{
+    background: white;
+    width:1px;
+    height:510px;
+    position: absolute;
+    left:22px;
+    bottom:80px;
+    transition: 0.5s;
+    border-bottom: 20px solid black;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.switch1:hover{
+    transform: translateY(40px) ;
+    cursor: pointer;
+}
+
+.window2-switch{
+    background: transparent;
+    width:35px;
+    position: absolute;
+    height:510px;
+    right:250px;
+    overflow: hidden;
+}
+.switch2{
+    background:white;
+    width:1px;
+    height:510px;
+    position: absolute;
+    right:22px;
+    bottom:80px;
+    transition: 0.5s;
+    border-bottom:20px solid rgb(0, 0, 0);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    
+}
+.switch2:hover{
+    transform: translateY(40px) ;
+    cursor: pointer;
+}
+.window2-right{
+    background:white;
+    width:35px;
+     height:510px;
+     position: absolute;
+     right:300px;
+}
+.window2-bottom{
+    background: white;
+    width: 400px;
+    height:35px;
+    position: absolute;
+    top:475px;
+    right:300px;
+}
+.window2-cross{
+    background: white;
+    width: 400px;
+    height:35px;
+    position: absolute;
+    top:120px;
+    right:300px;
+}
+.portrait{
+    position: absolute;
+    width:140px;
+    height:100px;
+    background: white;
+    border-radius: 10px;
+    top:60px;
+}
+.portrait-paint{
+position: absolute;
+width:100px;
+height:70px;
+border-radius: 27% 73% 70% 30% / 30% 56% 44% 70%;
+background: rgb(0,255,251);
+background:linear-gradient(0deg, rgba(0,255, 251,1) 0%, rgba(253, 187, 45, 1) 100%);
+top:75px;
+}
+.portrait-writing{
+    letter-spacing:4px;
+    top:35px;
+    font-family: 'Anton', sans-serif;
+    color:rgb(0, 0, 0);
+    font-size:20px;
+    position: absolute;
+}
+.portrait-string1{
+    width:2px;
+    height:66px;
+    transform: rotate(70deg);
+    position: absolute;
+    background: white;
+    right:30px;
+    top:20px;
+}
+.portrait-string2{
+    width:2px;
+    height:66px;
+    transform: rotate(-70deg);
+    position: absolute;
+    background: white;
+    left:30px;
+    top:20px;
+}
+.nail{
+    background: rgb(2, 230, 246);
+    width:10px;
+    height:10px;
+    border-radius: 50px;
+    position: absolute;
+    top:38px;
+}
+.planning-board{
+    background: burlywood;
+    border: 5px solid rgb(229, 229, 229);
+    position: absolute;
+    width:100px;
+    height:140px;
+    left:100px;
+    top:45px;
+}
+.sticky-note1{
+    background: greenyellow;
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:20px;
+    top:10px;
+}
+.words1{
+font-size: 3px;
+position: absolute;
+color:black;
+top:20px;
+left:23px;
+}
+.nail1{
+    background: red;
+    width:7px;
+    height:7px;
+    border-radius: 50px;
+    position: absolute;
+    top:13px;
+    left:32px;
+}
+.sticky-note2{
+    background: greenyellow;
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:20px;
+    top:50px;
+}
+.words2{
+    font-size: 3px;
+    position: absolute;
+    color:black;
+    top:60px;
+    left:23px;
+    }
+.nail2{
+    background: red;
+    width:7px;
+    height:7px;
+    border-radius: 50px;
+    position: absolute;
+    top:53px;
+    left:32px;
+}
+.sticky-note3{
+    background: greenyellow;
+    width:30px;
+    height:30px;
+    position: absolute;
+    left:20px;
+    top:90px;
+}
+.words3{
+    font-size: 3px;
+    position: absolute;
+    color:black;
+    top:100px;
+    left:23px;
+    }
+.nail3{
+    background: red;
+    width:7px;
+    height:7px;
+    border-radius: 50px;
+    position: absolute;
+    top:93px;
+    left:32px;
+}
